@@ -3,17 +3,17 @@ directories:
   output: dist
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
-appId: openblock.cc.openblock-desktop
-productName: "OpenBlockDesktop"
+appId: com.stemstar.stemstar-desktop
+productName: "StemstarDesktop"
 publish:
   - provider: github
-artifactName: "OpenBlock-Desktop_v${version}_${os}_${arch}.${ext}"
+artifactName: "Stemstar-Desktop_v${version}_${os}_${arch}.${ext}"
 
 fileAssociations:
   ext: ob
-  name: OpenBlock project file
+  name: Stemstar project file
   role: Editor
-  icon: buildResources/OpenBlockFile.ico
+  icon: buildResources/StemstarFile.ico
 
 mac:
   category: public.app-category.education
@@ -25,25 +25,25 @@ mac:
         This app requires microphone access when recording sounds or detecting loudness.
   gatekeeperAssess: true
   hardenedRuntime: true
-  icon: buildResources/OpenBlockDesktop.icns
+  icon: buildResources/StemstarDesktop.icns
   provisioningProfile: embedded.provisionprofile
   target:
     - dmg
     # - mas
 dmg:
-  title: "OpenBlock-Desktop_${version}"
+  title: "Stemstar-Desktop_${version}"
 # mas:
 #   category: public.app-category.education
 #   entitlements: buildResources/entitlements.mas.plist
 #   entitlementsInherit: buildResources/entitlements.mas.inherit.plist
 #   hardenedRuntime: false
-#   icon: buildResources/OpenBlockDesktop.icns
+#   icon: buildResources/StemstarDesktop.icns
 # masDev:
 #   type: development
 #   provisioningProfile: mas-dev.provisionprofile
 
 win:
-  icon: buildResources/OpenBlockDesktop.ico
+  icon: buildResources/StemstarDesktop.ico
   target:
     # - appx
     - nsis
@@ -62,8 +62,8 @@ linux:
   icon: buildResources/linux
   desktop:
     - Encoding: UTF-8
-    - Name: OpenBlockDesktop
-    - Icon: openblock-desktop
+    - Name: StemstarDesktop
+    - Icon: stemstar-desktop
     - Type: Application
     - Terminal: false
   target:

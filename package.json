@@ -1,7 +1,7 @@
 {
   "name": "openblock-desktop",
-  "productName": "OpenBlockDesktop",
-  "description": "OpenBlock as a self-contained desktop application",
+  "productName": "StemstarDesktop",
+  "description": "Stemstar as a self-contained desktop application",
   "author": "Openblock.cc Team <contact@openblock.cc> (http://www.openblock.cc/)",
   "version": "2.5.4",
   "license": "MIT",
