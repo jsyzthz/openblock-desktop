@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-windows:
-    runs-on: windows-2019
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -35,22 +35,22 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OpenBlock-Desktop-win
-          path: dist/OpenBlock-Desktop*win.exe
+          name: Stemstar-Desktop-win
+          path: dist/Stemstar-Desktop*win.exe
           retention-days: 1
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-            name: OpenBlock-Desktop-win-ia32
-            path: dist/OpenBlock-Desktop*ia32.exe
+            name: Stemstar-Desktop-win-ia32
+            path: dist/Stemstar-Desktop*ia32.exe
             retention-days: 1
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OpenBlock-Desktop-win-x64
-          path: dist/OpenBlock-Desktop*x64.exe
+          name: Stemstar-Desktop-win-x64
+          path: dist/Stemstar-Desktop*x64.exe
           retention-days: 1
 
   build-mac:
@@ -87,8 +87,8 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OpenBlock-Desktop-darwin
-          path: dist/OpenBlock-Desktop*.dmg
+          name: Stemstar-Desktop-darwin
+          path: dist/Stemstar-Desktop*.dmg
           retention-days: 1
 
   build-linux:
@@ -115,6 +115,6 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: OpenBlock-Desktop-linux
-          path: dist/OpenBlock-Desktop*.deb
+          name: Stemstar-Desktop-linux
+          path: dist/Stemstar-Desktop*.deb
           retention-days: 1
