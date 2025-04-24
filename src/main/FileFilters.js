@@ -23,9 +23,9 @@ const saveFilters = {
         name: 'Scratch 3 Project',
         extensions: ['sb3']
     },
-    OB: {
-        name: 'OpenBlock Project',
-        extensions: ['ob']
+    SS: {
+        name: 'Stemstar Project',
+        extensions: ['ss']
     },
     Sprite2: {
         name: 'Scratch 2 Sprite',
@@ -63,12 +63,12 @@ const loadFilters = {
         ]
     },
     AllProjects: {
-        name: 'All OpenBlock Projects',
+        name: 'All Stemstar Projects',
         extensions: [
             ...saveFilters.SB3.extensions,
             ...saveFilters.SB2.extensions,
             ...saveFilters.SB.extensions,
-            ...saveFilters.OB.extensions
+            ...saveFilters.SS.extensions
         ]
     },
     AllSounds: {

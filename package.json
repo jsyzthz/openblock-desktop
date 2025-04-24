@@ -1,6 +1,6 @@
 {
   "name": "openblock-desktop",
-  "productName": "StemstarDesktop",
+  "productName": "Stemstar Desktop",
   "description": "Stemstar as a self-contained desktop application",
   "author": "Openblock.cc Team <contact@openblock.cc> (http://www.openblock.cc/)",
   "version": "2.5.4",
@@ -82,8 +82,8 @@
     "monaco-editor-webpack-plugin": "^1.7.0",
     "nets": "^3.2.0",
     "node-abort-controller": "^3.0.1",
-    "openblock-gui": "github:openblockcc/openblock-gui#openblock-desktop-v2.5.4",
-    "openblock-l10n": "^3.15.20240704111820",
+    "openblock-gui": "github:jsyzthz/openblock-gui#desktop",
+    "openblock-l10n": "github:jsyzthz/openblock-l10n#main",
     "openblock-parse-release-message": "0.0.4",
     "os-locale": "^5.0.0",
     "postcss-import": "^12.0.1",

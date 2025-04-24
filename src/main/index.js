@@ -313,7 +313,7 @@ const createLoadingWindow = () => {
 
 const getIsProjectSave = downloadItem => {
     switch (downloadItem.getMimeType()) {
-    case 'application/x.openblock.ob':
+    case 'application/x.stemstar.ss':
         return true;
     }
     return false;
