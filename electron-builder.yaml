@@ -3,15 +3,15 @@ directories:
   output: dist
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
-appId: com.stemstar.stemstar-desktop
-productName: "StemstarDesktop"
+appId: com.stemstar.scratch-desktop
+productName: "Stemstar Desktop"
 publish:
   - provider: github
-artifactName: "Stemstar-Desktop_v${version}_${os}_${arch}.${ext}"
+artifactName: "Scratch-Desktop_v${version}_${os}_${arch}.${ext}"
 
 fileAssociations:
-  ext: ob
-  name: Stemstar project file
+  ext: ss
+  name: Stemstar scratch project file
   role: Editor
   icon: buildResources/StemstarFile.ico
 
@@ -31,7 +31,7 @@ mac:
     - dmg
     # - mas
 dmg:
-  title: "Stemstar-Desktop_${version}"
+  title: "Scratch-Desktop_${version}"
 # mas:
 #   category: public.app-category.education
 #   entitlements: buildResources/entitlements.mas.plist
@@ -62,7 +62,7 @@ linux:
   icon: buildResources/linux
   desktop:
     - Encoding: UTF-8
-    - Name: StemstarDesktop
+    - Name: ScratchDesktop
     - Icon: stemstar-desktop
     - Type: Application
     - Terminal: false
