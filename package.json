@@ -1,9 +1,9 @@
 {
   "name": "openblock-desktop",
-  "productName": "Stemstar Desktop",
-  "description": "Stemstar as a self-contained desktop application",
-  "author": "Openblock.cc Team <contact@openblock.cc> (http://www.openblock.cc/)",
-  "version": "2.5.4",
+  "productName": "Scratch Desktop",
+  "description": "Scratch Desktop as a self-contained desktop application",
+  "author": "Stemstar",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
