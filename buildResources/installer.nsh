@@ -23,8 +23,8 @@ ${StrRep}
     StrCmp $R0 "" 0 done
     StrCmp $R1 "" 0 done
 
-    WriteRegExpandStr HKLM "${INSTALL_REGISTRY_KEY}" InstallLocation "C:\StemstarDesktop"
-    WriteRegExpandStr HKCU "${INSTALL_REGISTRY_KEY}" InstallLocation "C:\StemstarDesktop"
+    WriteRegExpandStr HKLM "${INSTALL_REGISTRY_KEY}" InstallLocation "C:\Stemstar\ScratchDesktop"
+    WriteRegExpandStr HKCU "${INSTALL_REGISTRY_KEY}" InstallLocation "C:\Stemstar\ScratchDesktop"
 
 done:
     ${If} ${RunningX64}
