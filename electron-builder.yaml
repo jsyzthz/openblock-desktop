@@ -4,7 +4,7 @@ directories:
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
 appId: com.stemstar.scratch-desktop
-productName: "Stemstar Desktop"
+productName: "Scratch Desktop"
 publish:
   - provider: github
 artifactName: "Scratch-Desktop_v${version}_${os}_${arch}.${ext}"
