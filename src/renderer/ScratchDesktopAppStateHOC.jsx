@@ -33,7 +33,7 @@ const ScratchDesktopAppStateHOC = function (WrappedComponent) {
             });
         }
         render () {
-            const shouldShowTelemetryModal = (typeof ipcRenderer.sendSync('getTelemetryDidOptIn') !== 'boolean');
+            const shouldShowTelemetryModal = false //= (typeof ipcRenderer.sendSync('getTelemetryDidOptIn') !== 'boolean');
 
             return (<WrappedComponent
                 isTelemetryEnabled={this.state.telemetryDidOptIn}
